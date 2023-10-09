@@ -42,8 +42,10 @@ for i in range(120):
 
 # 检查IP的可用性
 def check_ip(list_ip):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71',
-               'Connection': 'close'}
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71',
+        'Connection': 'close'
+        }
     url = 'https://www.baidu.com'  # 以百度为例，检测IP的可行性
 
  
